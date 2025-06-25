@@ -13,9 +13,7 @@ const projects = [
     id: 1,
     title: "Super Coconut (Super POS)",
     description: "UX/UI Designer Internship",
-    image: "/public/Profile-Super-POS-scaled.jpg",
-    images: "/public/Loginfirst.svg",
-    images2: "/public/AI Assistant chat.svg",
+    image: "../public/Profile-Super-POS-scaled.jpg",
     fullDescription: "Super Coconut is a comprehensive Point of Sale system designed for modern businesses. This project involved creating an intuitive user interface that streamlines the checkout process, manages inventory, and provides detailed analytics for business owners.",
     technologies: ["Figma", "Canva", "Google Sheet"],
     features: [
