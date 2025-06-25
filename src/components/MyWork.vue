@@ -13,7 +13,7 @@ const projects = [
     id: 1,
     title: "Super Coconut (Super POS)",
     description: "UX/UI Designer Internship",
-    image: "../public/Profile-Super-POS-scaled.jpg",
+    image: "/Profile-Super-POS-scaled.jpg",
     fullDescription: "Super Coconut is a comprehensive Point of Sale system designed for modern businesses. This project involved creating an intuitive user interface that streamlines the checkout process, manages inventory, and provides detailed analytics for business owners.",
     technologies: ["Figma", "Canva", "Google Sheet"],
     features: [
@@ -30,11 +30,7 @@ const projects = [
     id: 2,
     title: "Mea Chan Hospital",
     description: "UX/UI Designer and Developer(fronend)",
-    image: "/public/LandingSMLN.svg",
-    images: "/public/LandingSM.svg",
-    images2: "/public/TimeST.svg",
-    images3: "/public/LineNotification1.svg",
-    images4: "/public/LineNotification2.svg",
+    image: "/LandingSMLN.svg",
     fullDescription: "This is a system for managing stretcher staff within a hospital. It is designed to organize their workflow more systematically by using Line Notification for job assignment and completion updates, helping to prevent redundant tasks and improve overall efficiency.",
     technologies: ["Vue.js", "CSS", "Tailwind", "PHP", "Java Script", "Figma", "GitHub"],
     features: [
@@ -51,11 +47,7 @@ const projects = [
     id: 3,
     title: "ECOFLOW Innovation",
     description: "UX/UI Designer and Documemtation",
-    image: "/public/LogoECO.svg",
-    images: "/public/LandingECO.svg",
-    images2: "/public/Home control.svg",
-    images3: "/public/AI Assistant chat.svg",
-    images4: "/public/Nofication.svg",
+    image: "/LogoECO.svg",
     fullDescription: "This project involves developing an application for managing smart devices within a home. It allows users to control devices remotely, calculates electricity usage, and displays the data by day, month, and year. The app also features an AI mode that can autonomously manage smart devices based on the analysis of the user's behavior.",
     technologies: ["Figma", "Google Document", "Flutter", "Node.js", "Express.js", "MongoDB", "GitLab"],
     features: [
@@ -73,7 +65,7 @@ const projects = [
     id: 4,
     title: "NexGen Home",
     description: "UX/UI Designer",
-    image: "/public/NexgenHome.svg",
+    image: "/NexgenHome.svg",
     fullDescription: "The concept of our company is a smart technology to assist in your accommodation for more convenience and energy efficiency. The “NexGen Home” specializes in providing professional installation services for smart home devices and systems. And our team also has an after-sale service that helps for updating software, etc..",
     technologies: ["Figma", "Google Document", "Vue.js", "GitHub"],
     features: [
