@@ -1,6 +1,6 @@
 <template>
   <section class="hero">
-    <div class="hero-content">
+    <div class="hero-content" style="margin-top: 9rem;">
       <h1>NexGen Home</h1>
       <h2 style="font-weight: 100">
         The ultimate platform that brings together all kinds of smart devices in one place.
@@ -8,11 +8,11 @@
       <span>UX/UI Designer</span>
     </div>
     <!-- Desktop Mockup -->
-    <div class="desktop-mockup">
+    <div class="desktop-mockup" style="margin-top: 2rem;">
       <div class="desktop">
         <div class="desktop-screen">
           <img
-            src="../public/NexgenHome.svg"
+            src="/NexgenHome.svg"
             style="width: 600px; height: 100%; margin-bottom: -10px"
           />
         </div>
@@ -78,7 +78,7 @@
           <div class="desktop">
             <div class="desktop-screen">
               <img
-                src="../public/LandingNGH.svg"
+                src="/LandingNGH.svg"
                 style="width: 600px; height: 100%; margin-bottom: -10px"
               />
             </div>
@@ -118,10 +118,10 @@
       <h2>Partial design</h2>
     </div>
     <div class="picture">
-      <img src="../public/Product.svg" style="width: 100%; height: 100%" />
-      <img src="../public/Product2NGH.svg" style="width: 100%; height: 100%" />
-      <img src="../public/PromotionNGH.svg" style="width: 100%; height: 100%" />
-      <img src="../public/Basket.svg" style="width: 100%; height: 100%" />
+      <img src="/Product.svg" style="width: 350px; height: 100%" />
+      <img src="/Product2NGH.svg" style="width: 350px; height: 100%" />
+      <img src="/PromotionNGH.svg" style="width: 350px; height: 100%" />
+      <img src="/Basket.svg" style="width: 350px; height: 100%" />
     </div>
   </section>
 
@@ -272,8 +272,8 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 }
 
 .desktop {
-  width: fit-content;
-  height: fit-content;
+  width: 630px;
+  height: 459px;
   background: #1f1f1f;
   border: 16px solid black;
   border-radius: 10px;
@@ -390,7 +390,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 .productivity-content {
   max-width: 1200px;
   margin: 0 auto;
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: start;
@@ -486,10 +486,9 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 }
 
 .picture {
+  display: flex;
   justify-content: center;
-  gap: 1.5rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 .picture-example:hover {
@@ -508,11 +507,6 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
     font-size: 2.5rem;
   }
 
-  .productivity-content {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -521,9 +515,9 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
     grid-template-columns: 1fr;
   }
 
-  /* .picture {
+  .picture {
     flex-direction: column;
     text-align: center;
-  } */
+  }
 }
 </style>

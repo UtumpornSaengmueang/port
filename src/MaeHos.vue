@@ -1,6 +1,6 @@
 <template>
   <section class="hero">
-    <div class="hero-content">
+    <div class="hero-content" style="margin-top: 9rem;">
       <h1>Mea Chan Hospital</h1>
       <h2 style="font-weight: 100">
         system with the Line application to help inform the patient transfer in order of work.
@@ -12,7 +12,7 @@
       <div class="desktop">
         <div class="desktop-screen">
           <img
-            src="../public/Loginfirst1.svg"
+            src="/Loginfirst1.svg"
             style="width: 600px; height: 100%; margin-bottom: -10px"
           />
         </div>
@@ -78,7 +78,7 @@
           <div class="desktop">
             <div class="desktop-screen">
               <img
-                src="../public/LandingSM.svg"
+                src="/LandingSM.svg"
                 style="width: 600px; height: 100%; margin-bottom: -10px"
               />
             </div>
@@ -130,10 +130,10 @@
       <h2>Partial design</h2>
     </div>
     <div class="picture">
-      <img src="../public/LineNotification1.svg" style="width: 250px; height: 100%" />
-      <img src="../public/LineNotification2.svg" style="width: 250px; height: 100%" />
-      <img src="../public/LineNotification3.svg" style="width: 250px; height: 100%" />
-      <img src="../public/LineNotification4.svg" style="width: 250px; height: 100%" />
+      <img src="/LineNotification1.svg" style="width: 250px; height: 100%" />
+      <img src="/LineNotification2.svg" style="width: 250px; height: 100%" />
+      <img src="/LineNotification3.svg" style="width: 250px; height: 100%" />
+      <img src="/LineNotification4.svg" style="width: 250px; height: 100%" />
     </div>
   </section>
   <!-- How It Works Section -->

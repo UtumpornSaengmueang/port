@@ -1,15 +1,15 @@
 <template>
   <section class="hero">
-    <div class="hero-content">
+    <div class="hero-content" style="margin-top: 9rem;">
       <h1>ECOFLOW Innovation</h1>
       <h2 style="font-weight: 100">Create an organized and energy-saving smart home with us.</h2>
       <span>UX/UI Designer and Documemtation</span>
     </div>
-    <div class="phone-mockup">
+    <div class="phone-mockup" style="margin-top: 3rem;">
       <div class="phone">
         <div class="phone-screen">
           <div class="phone-content">
-            <img src="../public/Start2.svg" style="width: 100%; height: 100%" />
+            <img src="/Start2.svg" style="width: 100%; height: 100%" />
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@
         <div class="phone" style="width: 252px; height: 500px">
           <div class="phone-screen">
             <div class="phone-content">
-              <img src="../public/LandingECO.svg" style="width: 100%; height: 100%" />
+              <img src="/LandingECO.svg" style="width: 100%; height: 100%" />
             </div>
           </div>
         </div>
@@ -122,10 +122,10 @@
       <h2>Partial design</h2>
     </div>
     <div class="picture">
-      <img src="../public/Home control.svg" style="width: 250px; height: 100%" />
-      <img src="../public/Home control 2.svg" style="width: 250px; height: 100%" />
-      <img src="../public/Manage Device.svg" style="width: 250px; height: 100%" />
-      <img src="../public/Nofication.svg" style="width: 250px; height: 100%" />
+      <img src="/Home control.svg" style="width: 250px; height: 100%" />
+      <img src="/Home control 2.svg" style="width: 250px; height: 100%" />
+      <img src="/Manage Device.svg" style="width: 250px; height: 100%" />
+      <img src="/Nofication.svg" style="width: 250px; height: 100%" />
     </div>
   </section>
   <!-- How It Works Section -->
@@ -496,7 +496,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 .picture-example {
   background: linear-gradient(135deg, #ff7eb9 0%, #6c63ff 100%);
   padding: 4rem 1rem;
-  text-align: center;
+  justify-items: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
@@ -509,7 +509,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 
 .picture {
   display: flex;
-  justify-content: center;
+  text-align: center;
   gap: 2rem;
 }
 
@@ -550,6 +550,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 
   .picture {
     flex-direction: column;
+    text-align: center;
   }
 }
 </style>

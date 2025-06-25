@@ -1,15 +1,15 @@
 <template>
   <section class="hero">
-    <div class="hero-content">
+    <div class="hero-content" style="margin-top: 9rem;">
       <h1>Super Coconut</h1>
       <h2 style="font-weight: 100;">Revolution POS into the point of success.</h2>
       <span>UX/UI Internship Position</span>
     </div>
-    <div class="phone-mockup">
+    <div class="phone-mockup" style="margin-top: 2rem;">
       <div class="phone">
         <div class="phone-screen">
           <div class="phone-content">
-            <img src="../public/ระบุเบอร์โทร.svg" style="width: 100%; height: 100%; margin-top: 48%;">
+            <img src="/ระบุเบอร์โทร.svg" style="width: 100%; height: 100%; margin-top: 48%;">
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@
       </div>
       <div class="productivity-visual">
           <div class="progress-text">
-            <img src="../public/landingCOCO.png" style="width: 300px; height: 100%; margin-left: 2rem;">
+            <img src="/landingCOCO.png" style="width: 300px; height: 100%; margin-left: 2rem;">
           </div>
         </div>
       </div>
@@ -103,10 +103,10 @@
       <h2>Partial design</h2>
     </div>
     <div class="picture">
-      <img src="../public/TierMemberPOS.svg" style="width: 300px; height: 100%;">
-      <img src="../public/TierMemberPOS1.svg" style="width: 300px; height: 100%;">
-      <img src="../public/Master Menu - V.svg" style="width: 300px; height: 100%;">
-      <img src="../public/Master Menu - VI.svg" style="width: 300px; height: 100%;">
+      <img src="/TierMemberPOS.svg" style="width: 300px; height: 100%;">
+      <img src="/TierMemberPOS1.svg" style="width: 300px; height: 100%;">
+      <img src="/Master Menu - V.svg" style="width: 300px; height: 100%;">
+      <img src="/Master Menu - VI.svg" style="width: 300px; height: 100%;">
     </div>
   </section>
   <!-- How It Works Section -->
@@ -455,48 +455,6 @@ body {
   align-items: center;
 }
 
-/* .circular-progress {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  background: conic-gradient(
-    from 0deg,
-    #ff6b6b 0deg,
-    #feca57 120deg,
-    #48dbfb 240deg,
-    #ff6b6b 360deg
-  );
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  animation: rotate 10s linear infinite;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.circular-progress::before {
-  content: "";
-  width: 200px;
-  height: 200px;
-  background: #1a1a2e;
-  border-radius: 50%;
-  position: absolute;
-}
-
-.progress-text {
-  z-index: 1;
-  text-align: center;
-  color: white;
-} */
-
 /* Service Cards */
 .services {
   background: white;
@@ -550,39 +508,10 @@ body {
   color: #333;
 }
 
-/* .steps {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-.step {
-  background: white;
-  padding: 2rem;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.step-number {
-  width: 60px;
-  height: 60px;
-  background: linear-gradient(45deg, #ff6b6b, #feca57);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 1rem;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-} */
-
 .picture-example{
   background: linear-gradient(135deg, #FFCC33 0%, #f9f9f9 100%);
   padding: 4rem 1rem;
-  text-align: center;
+  justify-items: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }

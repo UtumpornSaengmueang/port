@@ -130,7 +130,7 @@ export default {
 }
 
 .navbar-menu a:hover {
-  color: #BEBEBE;
+  color: black;
   background: rgba(255, 255, 255, 0.1);
 }
 
