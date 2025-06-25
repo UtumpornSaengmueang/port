@@ -76,11 +76,6 @@ const projects = [
     title: "NexGen Home",
     description: "UX/UI Designer",
     image: "/public/NexgenHome.svg",
-    images: "/public/ProductNGH.svg",
-    images2: "/public/Product2NGH.svg",
-    images3: "/public/Basket.svg",
-    images4: "/public/Select Product.svg",
-    images5: "/public/Payment Page3.svg",
     fullDescription: "The concept of our company is a smart technology to assist in your accommodation for more convenience and energy efficiency. The “NexGen Home” specializes in providing professional installation services for smart home devices and systems. And our team also has an after-sale service that helps for updating software, etc..",
     technologies: ["Figma", "Google Document", "Vue.js", "GitHub"],
     features: [
