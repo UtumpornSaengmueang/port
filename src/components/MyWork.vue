@@ -292,12 +292,12 @@ const openProject = (project) => {
   cursor: pointer;
   /* transition: all 0.3s ease; */
   font-weight: 400;
-  font-family: monospace;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .cta-button:hover {
-  background: linear-gradient(100deg, rgba(168, 85, 247, 0.7) ,
-  rgba(59, 130, 246, 0.5));
+  background: white;
+  color: black;
 }
 
 .PictureCover{

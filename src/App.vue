@@ -88,7 +88,7 @@ export default {
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: #ffffff6e; /* สีขาวโปร่ง */
+  background: white; /* สีขาวโปร่ง */
   backdrop-filter: blur(20px);
   padding: 1rem 2rem;
   border-radius: 50px;
@@ -102,16 +102,16 @@ export default {
 }
 
 .navbar-brand .name {
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 600;
   color: #111111;
   margin-bottom: 0.2rem;
 }
 
 .navbar-brand .role {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #111111;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .navbar-menu {
@@ -123,7 +123,7 @@ export default {
   text-decoration: none;
   color: #111111;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
   transition: all 0.3s ease;
   padding: 0.5rem 1rem;
   border-radius: 20px;
