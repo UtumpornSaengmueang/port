@@ -28,7 +28,7 @@
       <div class="feature-card">
         <div class="feature-icon">📊</div>
         <h3 style="margin-bottom: 0.5rem;">Dashboard</h3>
-        <p>An intelligent dashboard that combines all important information in one place,</p>
+        <p>An intelligent dashboard that combines all important information in one place.</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">👥</div>
