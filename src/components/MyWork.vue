@@ -282,24 +282,21 @@ const openProject = (project) => {
 }
 
 .cta-button {
-  background: rgba(255, 255, 255, 0.1);
-  /* animation: gradientMove 5s ease infinite; */
+  background: white;
   padding: 0.75rem 1rem;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
-  color: white;
-  margin-top: 1.5rem;
+  color: black;
   font-size: 1rem;
   cursor: pointer;
-  /* transition: all 0.3s ease; */
-  font-weight: 400;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
   justify-items: center;
+  margin-top: 1.5rem;
 }
 
 .cta-button:hover {
-  background: white;
-  color: black;
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
 }
 
 .PictureCover{

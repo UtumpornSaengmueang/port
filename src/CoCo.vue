@@ -195,7 +195,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 
 /* Hero Section */
 .hero {
-  min-height: 800px;
+  min-height: 100vh;
   background: linear-gradient(135deg, #faf3b3 0%, #f9f9f9 100%);
   position: relative;
   display: flex;

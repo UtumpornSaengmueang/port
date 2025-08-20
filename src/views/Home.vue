@@ -360,7 +360,7 @@ import Tester from "@/components/Tester.vue";
 }
 
 .skill-category h3 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #ffffff;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -369,17 +369,16 @@ import Tester from "@/components/Tester.vue";
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .skill-tag {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-  color: #ffffff;
+  background: white;
+  color: black;
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  font-size: 0.9rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 500;
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
 }

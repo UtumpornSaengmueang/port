@@ -12,7 +12,7 @@ const downloadResume = () => {
 <template>
     <!-- CTA -->
     <section class="cta glass-card">
-      <h2>Download Here</h2>
+      <h1>Download Here</h1>
       <button @click="downloadResume"> Download! </button>
     </section>
 </template>
@@ -33,25 +33,27 @@ const downloadResume = () => {
 }
 
 button {
-  background-color: rgba(255, 255, 255, 0.1);;
+  background-color: white;
   padding: 0.75rem 1rem;
   border: none;
   border-radius: 20px;
-  color: white;
+  color: black;
   margin-top: 1.5rem;
   font-size: 1rem;
   cursor: pointer;
   /* transition: all 0.3s ease; */
-  font-weight: 400;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 button:hover {
-  background: white;
-  color: black;
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
 }
 
-h2{
+h1{
   color: white;
+  font-size: 1.5rem;
 }
 </style>

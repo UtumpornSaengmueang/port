@@ -1,4 +1,6 @@
 <template>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
   <router-view />
   <!-- NAVBAR -->
   <nav class="navbar">
@@ -91,42 +93,41 @@ export default {
   background: white; /* สีขาวโปร่ง */
   backdrop-filter: blur(20px);
   padding: 1rem 2rem;
-  border-radius: 50px;
+  border-radius: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
   transition: all 0.3s ease;
-  min-width: 800px;
+  min-width: 1000px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand .name {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #111111;
   margin-bottom: 0.2rem;
 }
 
 .navbar-brand .role {
-  font-size: 0.9rem;
-  color: #111111;
-  font-weight: 500;
+  font-size: 1rem;
+  color: #5e5e5e;
+  font-weight: 600;
 }
 
 .navbar-menu {
   display: flex;
-  gap: 2rem;
 }
 
 .navbar-menu a {
   text-decoration: none;
   color: #111111;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
   transition: all 0.3s ease;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
+  padding: 1rem;
+  border-radius: 12px;
 }
 
 .navbar-menu a:hover {
