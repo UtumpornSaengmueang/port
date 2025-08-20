@@ -139,6 +139,7 @@ const openProject = (project) => {
       v-for="project in projects" 
       :key="project.id"
       class="feature glass-card"
+      @click="openProject(project.id)"
     >
       <img class="PictureCover" :src="project.image" :alt="project.title" />
       <div class="workinfo">
@@ -293,6 +294,7 @@ const openProject = (project) => {
   /* transition: all 0.3s ease; */
   font-weight: 400;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-items: center;
 }
 
 .cta-button:hover {
@@ -311,174 +313,7 @@ const openProject = (project) => {
 .workinfo{
   padding: 1rem;
   justify-items: center;
-  /* font-family: monospace; */
-}
-
-/* .section-divider {
-  border-bottom: 1px solid #B5B5B5;
-  margin: 0.5rem 2rem;
-} */
-
-/* ========== MODAL STYLES ========== */
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(5px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  padding: 2rem;
-  animation: fadeIn 0.3s ease-out;
-}
-
-.modal-content {
-  background: white;
-  border-radius: 24px;
-  max-width: 1100px;
-  width: 100%;
-  max-height: 90vh;
-  overflow-y: auto;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-  position: relative;
-  transform-origin: var(--start-x, center) var(--start-y, center);
-  animation: modalSlideUp 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 2rem 1rem;
-  border-bottom: 1px solid #eee;
-}
-
-.modal-header h2 {
-  margin: 0;
-  color: #2c3e50;
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-
-.close-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  color: #7f8c8d;
-}
-
-.close-button:hover {
-  background: #f8f9fa;
-  color: #2c3e50;
-}
-
-.modal-body {
-  padding: 2rem;
-}
-
-.modal-image {
-  margin-bottom: 2rem;
-}
-
-.modal-image img {
-  width: 80%;
-  max-width: 500px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  object-fit: cover;
-  border-radius: 16px;
-}
-
-
-/* .imagemore{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 16px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-} */
-
-.detail-section h3 {
-  color: #2c3e50;
-  font-size: 1.3rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.detail-section h3::before {
-  content: '';
-  width: 4px;
-  height: 20px;
-  background:#555 ;
-  background-size: 300% 100%;
-  border-radius: 2px;
-  margin-right: 0.75rem;
-}
-
-.detail-section p {
-  color: #555;
-  line-height: 1.7;
-  font-size: 1rem;
-  margin-bottom: 2rem;
-}
-
-.tech-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.tech-tag {
-  background: #555;
-  background-size: 300% 100%;
-  color: white;
-  padding: 0.4rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  margin-bottom: 1.5rem;
-}
-
-.features-list {
-  list-style: none;
-  padding: 0;
-}
-
-.features-list li {
-  padding: 0.5rem 0;
-  color: #555;
-  position: relative;
-  padding-left: 1.5rem;
-}
-
-.features-list li::before {
-  content: '✓';
-  position: absolute;
-  left: 0;
-  color: #4ecdc4;
-  font-weight: bold;
-}
-
-.modal-footer {
-  padding: 1rem 2rem 2rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  border-top: 1px solid #eee;
+  text-align: center;
 }
 
 

@@ -1,8 +1,10 @@
 <template>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
   <section class="hero">
     <div class="hero-content" style="margin-top: 9rem;">
       <h1>ECOFLOW Innovation</h1>
-      <h2 style="font-weight: 100">Create an organized and energy-saving smart home with us.</h2>
+      <h2 style="font-weight: 300">Create an organized and energy-saving smart home with us.</h2>
       <span>UX/UI Designer and Documemtation</span>
     </div>
     <div class="phone-mockup" style="margin-top: 3rem;">
@@ -18,7 +20,26 @@
 
   <!-- Features Section -->
   <section class="features">
-    <h1 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #333">
+    <section class="how-it-works">
+    <div class="productivity-content">
+      <div>
+        <h2>Challenges & Solutions</h2>
+        <p>
+          Challenge is Balancing the broad scope of multiple smart devices. Solution is Built a
+          flexible API layer to standardize device communication, ensuring compatibility.
+        </p>
+      </div>
+      <div>
+        <h2>Results & Impact</h2>
+        <p>
+          Our product will change how people interact with their home energy systems, promoting more
+          energy-conscious behaviors. By making AI-powered energy management mainstream, we aim to
+          reduce household energy consumption and contribute to the fight against climate change.
+        </p>
+      </div>
+    </div>
+  </section>
+    <!-- <h1 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #333">
       Key Features
     </h1>
     <div class="features-grid">
@@ -57,7 +78,7 @@
         <h3 style="margin-bottom: 0.5rem">Dynamic Solar Panel Optimization</h3>
         <p>Maximize energy generation through AI-based tracking of sunlight and efficiency.</p>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <!-- Productivity Section -->
@@ -150,25 +171,7 @@
     </div>
   </section> -->
 
-  <section class="how-it-works">
-    <div class="productivity-content">
-      <div>
-        <h2>Challenges & Solutions</h2>
-        <p>
-          Challenge is Balancing the broad scope of multiple smart devices. Solution is Built a
-          flexible API layer to standardize device communication, ensuring compatibility.
-        </p>
-      </div>
-      <div>
-        <h2>Results & Impact</h2>
-        <p>
-          Our product will change how people interact with their home energy systems, promoting more
-          energy-conscious behaviors. By making AI-powered energy management mainstream, we aim to
-          reduce household energy consumption and contribute to the fight against climate change.
-        </p>
-      </div>
-    </div>
-  </section>
+
 </template>
 
 <script>
@@ -219,12 +222,13 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif ;
 }
 
 /* Hero Section */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, #ffffff 0%, #ffbbff 100%);
+  background: linear-gradient(135deg, #ffd2f5 0%, #ffffff 100%);
   position: relative;
   display: flex;
   align-items: center;
@@ -497,7 +501,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   background: linear-gradient(135deg, #ff7eb9 0%, #6c63ff 100%);
   padding: 4rem 1rem;
   justify-items: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
   transition: transform 0.3s ease;
 }
 
@@ -513,9 +517,9 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   gap: 2rem;
 }
 
-.picture-example:hover {
+/* .picture-example:hover {
   transform: translateY(-5px);
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 768px) {

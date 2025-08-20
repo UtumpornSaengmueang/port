@@ -1,8 +1,10 @@
 <template>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
   <section class="hero">
     <div class="hero-content" style="margin-top: 9rem;">
       <h1>NexGen Home</h1>
-      <h2 style="font-weight: 100">
+      <h2 style="font-weight: 300">
         The ultimate platform that brings together all kinds of smart devices in one place.
       </h2>
       <span>UX/UI Designer</span>
@@ -22,7 +24,25 @@
 
   <!-- Features Section -->
   <section class="features">
-    <h1 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #333">
+    <section class="how-it-works">
+    <div class="productivity-content">
+      <div>
+        <h2>Challenges & Solutions</h2>
+        <p>
+          The challenge is competing in the market with major players like Samsung and Xiaomi. The
+          solution is to offer promotions and provide on-site installation services.
+        </p>
+      </div>
+      <div>
+        <h2>Results & Impact</h2>
+        <p>
+          Customers have started showing interest in the promotions and gained trust through trial
+          usage, resulting in a 56% increase in customer numbers.
+        </p>
+      </div>
+    </div>
+  </section>
+    <!-- <h1 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #333">
       Key Features
     </h1>
     <div class="features-grid">
@@ -58,7 +78,7 @@
         <h3 style="margin-bottom: 0.5rem">Warranty & Support</h3>
         <p>Shop with confidence with guaranteed warranty and responsive after-sales service.</p>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <!-- Productivity Section -->
@@ -125,24 +145,6 @@
     </div>
   </section>
 
-  <section class="how-it-works">
-    <div class="productivity-content">
-      <div>
-        <h2>Challenges & Solutions</h2>
-        <p>
-          The challenge is competing in the market with major players like Samsung and Xiaomi. The
-          solution is to offer promotions and provide on-site installation services.
-        </p>
-      </div>
-      <div>
-        <h2>Results & Impact</h2>
-        <p>
-          Customers have started showing interest in the promotions and gained trust through trial
-          usage, resulting in a 56% increase in customer numbers.
-        </p>
-      </div>
-    </div>
-  </section>
 </template>
 
 <script>
@@ -193,6 +195,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Asap', sans-serif ;
 }
 
 /* body {
@@ -470,7 +473,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   background: linear-gradient(135deg, #66ccff 0%, #f9f9f9 100%);
   padding: 2rem 2rem;
   justify-items: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
   transition: transform 0.3s ease;
 }
 
@@ -491,9 +494,9 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   gap: 2rem;
 }
 
-.picture-example:hover {
+/* .picture-example:hover {
   transform: translateY(-5px);
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 768px) {

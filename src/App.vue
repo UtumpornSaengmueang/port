@@ -140,7 +140,6 @@ export default {
   backdrop-filter: blur(20px);
   padding: 1rem 2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 2rem;
 }
 
 .footer-content {

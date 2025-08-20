@@ -1,8 +1,10 @@
 <template>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
   <section class="hero">
     <div class="hero-content" style="margin-top: 9rem;">
       <h1>Super Coconut</h1>
-      <h2 style="font-weight: 100;">Revolution POS into the point of success.</h2>
+      <h2 style="font-weight: 300;">Revolution POS into the point of success.</h2>
       <span>UX/UI Internship Position</span>
     </div>
     <div class="phone-mockup" style="margin-top: 2rem;">
@@ -16,9 +18,29 @@
     </div>
   </section>
 
+  
   <!-- Features Section -->
   <section class="features">
-    <h1 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #333">Key Features</h1>
+    <section class="how-it-works">
+    <div class="productivity-content">
+      <div>
+        <h2>Challenges & Solutions</h2>
+        <p>
+          The challenge was that it felt like my first real work experience, 
+          which made me feel uncertain. Additionally, the tasks I was assigned had quite a few limitations, 
+          making it rather difficult at the beginning. The way I addressed this was by thoroughly understanding the product or task so that I could carry out the assigned work effectively.
+        </p>
+      </div>
+      <div>
+        <h2>Results & Impact</h2>
+        <p>
+          It looks more attractive and user-friendly, and after trying it out, found the UI to be easier to use.
+        </p>
+      </div>
+    </div>
+  </section>
+
+    <!-- <h1 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #333">Key Features</h1>
     <div class="features-grid">
       <div class="feature-card">
         <div class="feature-icon">💳</div>
@@ -55,7 +77,7 @@
         <h3 style="margin-bottom: 0.5rem;">CRM (Customer Relationship Managment)</h3>
         <p>Help record and store accurate customer data, increase opportunities for your restaurant to grow sustainably.</p>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <!-- Productivity Section -->
@@ -109,46 +131,7 @@
       <img src="/Master Menu - VI.svg" style="width: 300px; height: 100%;">
     </div>
   </section>
-  <!-- How It Works Section -->
-  <!-- <section class="how-it-works">
-    <h2>Let's See How It Work</h2>
-    <div class="steps">
-      <div class="step">
-        <div class="step-number">1</div>
-        <h3>Setup Your Account</h3>
-        <p>Quick and easy registration process to get you started in minutes</p>
-      </div>
-      <div class="step">
-        <div class="step-number">2</div>
-        <h3>Configure Your Business</h3>
-        <p>Customize the system to match your specific business needs and workflow</p>
-      </div>
-      <div class="step">
-        <div class="step-number">3</div>
-        <h3>Start Managing</h3>
-        <p>Begin processing orders, managing inventory, and growing your business</p>
-      </div>
-    </div>
-  </section> -->
   
-  <section class="how-it-works">
-    <div class="productivity-content">
-      <div>
-        <h2>Challenges & Solutions</h2>
-        <p>
-          The challenge was that it felt like my first real work experience, 
-          which made me feel uncertain. Additionally, the tasks I was assigned had quite a few limitations, 
-          making it rather difficult at the beginning. The way I addressed this was by thoroughly understanding the product or task so that I could carry out the assigned work effectively.
-        </p>
-      </div>
-      <div>
-        <h2>Results & Impact</h2>
-        <p>
-          It looks more attractive and user-friendly, and after trying it out, found the UI to be easier to use.
-        </p>
-      </div>
-    </div>
-  </section>
 </template>
 
 <script>
@@ -195,22 +178,25 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 </script>
 
 <style scoped>
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'IBM Plex Sans Thai', sans-serif ;
 }
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+/* body {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   overflow-x: hidden;
   background: linear-gradient(135deg, #f6eeaa 0%, #f9f9f9 100%);
-}
+} */
 
 /* Hero Section */
 .hero {
-  min-height: 100vh;
-  background: linear-gradient(135deg, #fff173 0%, #f9f9f9 100%);
+  min-height: 800px;
+  background: linear-gradient(135deg, #faf3b3 0%, #f9f9f9 100%);
   position: relative;
   display: flex;
   align-items: center;
@@ -512,7 +498,7 @@ body {
   background: linear-gradient(135deg, #FFCC33 0%, #f9f9f9 100%);
   padding: 4rem 1rem;
   justify-items: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
   transition: transform 0.3s ease;
 }
 
@@ -527,10 +513,10 @@ body {
   justify-content: center;
   gap: 2rem;
 }
-
+/* 
 .picture-example:hover {
   transform: translateY(-5px);
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 768px) {

@@ -8,8 +8,8 @@
   </div>
 <br><br>
   <div class="MaechanHos">
-    <span> - 6 January - 25 April 2025 </span> 
-    <p> UX/UI Designer and Develop(Frontend),  <p1> Mae Chan Hospital </p1> 
+    <span> - 10 August - 22 November 2024 </span> 
+    <p> UX/UI Designer and Develop (Frontend),  <p1> Mae Chan Hospital </p1> 
     </p>
   </div>
   </div>

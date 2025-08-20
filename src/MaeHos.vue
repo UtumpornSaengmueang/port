@@ -1,8 +1,10 @@
 <template>
+  <link href="https://fonts.googleapis.com/css2?family=K2D:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
   <section class="hero">
     <div class="hero-content" style="margin-top: 9rem;">
       <h1>Mea Chan Hospital</h1>
-      <h2 style="font-weight: 100">
+      <h2 style="font-weight: 300">
         system with the Line application to help inform the patient transfer in order of work.
       </h2>
       <span>UX/UI Designer and Developer(fronend)</span>
@@ -22,7 +24,27 @@
 
   <!-- Features Section -->
   <section class="features">
-    <h1 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #333">
+    <section class="how-it-works">
+    <div class="productivity-content">
+      <div>
+        <h2>Challenges & Solutions</h2>
+        <p>
+          The challenge is how to make notifications via LINE possible without incurring costs,
+          while ensuring that all employees can use it without receiving duplicate tasks. The
+          solution is to study other projects that use LINE as a communication tool and adapt those
+          methods to our own project.
+        </p>
+      </div>
+      <div>
+        <h2>Results & Impact</h2>
+        <p>
+          Notifications via LINE are effective in practice and help reduce redundant tasks for
+          employees.
+        </p>
+      </div>
+    </div>
+  </section>
+    <!-- <h1 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #333">
       Key Features
     </h1>
     <div class="features-grid">
@@ -59,7 +81,7 @@
           Record precise times for task actions to ensure accurate logs and enhance team efficiency.
         </p>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <!-- Productivity Section -->
@@ -158,26 +180,7 @@
     </div>
   </section> -->
 
-  <section class="how-it-works">
-    <div class="productivity-content">
-      <div>
-        <h2>Challenges & Solutions</h2>
-        <p>
-          The challenge is how to make notifications via LINE possible without incurring costs,
-          while ensuring that all employees can use it without receiving duplicate tasks. The
-          solution is to study other projects that use LINE as a communication tool and adapt those
-          methods to our own project.
-        </p>
-      </div>
-      <div>
-        <h2>Results & Impact</h2>
-        <p>
-          Notifications via LINE are effective in practice and help reduce redundant tasks for
-          employees.
-        </p>
-      </div>
-    </div>
-  </section>
+
 </template>
 
 <script>
@@ -228,10 +231,11 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "K2D", sans-serif;
 }
 
 /* body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "K2D", sans-serif;
   overflow-x: hidden;
   background: linear-gradient(135deg, #f6eeaa 0%, #f9f9f9 100%);
 } */
@@ -239,7 +243,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 /* Hero Section */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, #f0ffff 0%, #f9f9f9 100%);
+  background: linear-gradient(135deg, #bfebff 0%, #f9f9f9 100%);
   position: relative;
   display: flex;
   align-items: center;
@@ -505,7 +509,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   background: linear-gradient(135deg, #66ccff 0%, #f9f9f9 100%);
   padding: 2rem 2rem;
   justify-items: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
   transition: transform 0.3s ease;
 }
 
@@ -526,9 +530,9 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   gap: 2rem;
 }
 
-.picture-example:hover {
+/* .picture-example:hover {
   transform: translateY(-5px);
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 768px) {
