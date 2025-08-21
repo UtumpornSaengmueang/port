@@ -93,7 +93,7 @@ export default {
   background: white; /* สีขาวโปร่ง */
   backdrop-filter: blur(20px);
   padding: 1rem 2rem;
-  border-radius: 20px;
+  border-radius: 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,7 +104,7 @@ export default {
 }
 
 .navbar-brand .name {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: #111111;
   margin-bottom: 0.2rem;
