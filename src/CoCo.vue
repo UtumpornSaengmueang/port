@@ -86,9 +86,13 @@
       <div>
         <h2>Project Overview</h2>
         <p>
-          Super Coconut is a comprehensive Point of Sale (POS) system designed for modern businesses. 
-          This project involved creating an intuitive user interface that streamlines the checkout process, 
-          manages inventory, and provides detailed analytics for business owners.
+          Most of the work involved redesigning existing products, creating banners for festivals or various events as assigned.
+           In the redesign tasks, I completely rearranged the layout, improved the color scheme, and followed the wireframes provided by the BA as accurately as possible. 
+           If something seemed incorrect, I could point it out and discuss how to adjust it properly.
+        </p>
+        <p>
+          From this internship, I learned a lot and significantly improved my Figma skills thanks to my mentor, 
+          who taught me about Design Systems, User Interface design, and even logical thinking.
         </p>
       </div>
       <div class="productivity-visual">
@@ -405,6 +409,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   font-size: 1.1rem;
   opacity: 0.9;
   line-height: 1.6;
+  text-indent: 2rem;
 }
 
 /* Productivity Section */

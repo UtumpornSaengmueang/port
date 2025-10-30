@@ -50,6 +50,7 @@ button {
 button:hover {
   background: rgba(255, 255, 255, 0.15);
   transform: translateY(-2px);
+  color: white;
 }
 
 h1{

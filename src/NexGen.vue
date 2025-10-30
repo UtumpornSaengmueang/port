@@ -138,10 +138,10 @@
       <h2>Partial design</h2>
     </div>
     <div class="picture">
-      <img src="/Product.svg" style="width: 350px; height: 100%" />
-      <img src="/Product2NGH.svg" style="width: 350px; height: 100%" />
-      <img src="/PromotionNGH.svg" style="width: 350px; height: 100%" />
-      <img src="/Basket.svg" style="width: 350px; height: 100%" />
+      <img src="/Product.svg" style="width: 500px; height: 100%" />
+      <img src="/Product2NGH.svg" style="width: 500px; height: 100%" />
+      <img src="/PromotionNGH.svg" style="width: 500px; height: 100%" />
+      <img src="/Basket.svg" style="width: 500px; height: 100%" />
     </div>
   </section>
 
@@ -380,6 +380,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   font-size: 1.1rem;
   opacity: 0.9;
   line-height: 1.6;
+  text-indent: 2rem;
 }
 
 /* Productivity Section */
@@ -471,7 +472,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 
 .picture-example {
   background: linear-gradient(135deg, #66ccff 0%, #f9f9f9 100%);
-  padding: 2rem 2rem;
+  padding: 3rem 1rem;
   justify-items: center;
   /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
   transition: transform 0.3s ease;
@@ -490,7 +491,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 
 .picture {
   display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -499,7 +500,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 } */
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1800px) {
   .hero {
     flex-direction: column;
     padding: 2rem;
@@ -520,7 +521,6 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 
   .picture {
     flex-direction: column;
-    text-align: center;
   }
 }
 </style>

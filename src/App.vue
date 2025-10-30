@@ -30,7 +30,7 @@
           <span class="contact-icon">📞</span>
           <div class="contact-info">
             <span class="contact-label">Phone</span>
-            <span class="contact-text">0623671059</span>
+            <span class="contact-text">062-367-1059</span>
           </div>
         </div>
 

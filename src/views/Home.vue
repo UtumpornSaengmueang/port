@@ -386,6 +386,7 @@ import Tester from "@/components/Tester.vue";
 .skill-tag:hover {
   background: rgba(255, 255, 255, 0.15);
   transform: translateY(-2px);
+  color: white;
 }
 
 /* ========== RESPONSIVE DESIGN ========== */

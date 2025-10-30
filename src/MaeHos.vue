@@ -416,6 +416,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   font-size: 1.1rem;
   opacity: 0.9;
   line-height: 1.6;
+  text-indent: 2rem;
 }
 
 /* Productivity Section */
