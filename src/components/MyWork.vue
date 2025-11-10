@@ -272,9 +272,10 @@ const openProject = (project) => {
   border: 1px solid rgba(74, 72, 72, 0.1);
   border-radius: 20px;
   backdrop-filter: blur(15px);
-  padding: 0rem;
   transition: transform 0.5s ease;
   cursor: pointer;
+  height: 380px;
+  width: 272px;
 }
 
 .glass-card:hover {
@@ -291,7 +292,6 @@ const openProject = (project) => {
   cursor: pointer;
   font-weight: 500;
   justify-items: center;
-  margin-top: 1.5rem;
 }
 
 .cta-button:hover {
@@ -312,6 +312,8 @@ const openProject = (project) => {
   padding: 1rem;
   justify-items: center;
   text-align: center;
+  width: 270px;
+  height: 180px;
 }
 
 
