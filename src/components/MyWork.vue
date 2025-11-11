@@ -292,6 +292,8 @@ const openProject = (project) => {
   cursor: pointer;
   font-weight: 500;
   justify-items: center;
+  width: fit-content;
+  height: fit-content;
 }
 
 .cta-button:hover {
@@ -310,10 +312,13 @@ const openProject = (project) => {
 
 .workinfo{
   padding: 1rem;
-  justify-items: center;
-  text-align: center;
   width: 270px;
   height: 180px;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap:wrap;
 }
 
 
