@@ -48,6 +48,8 @@
                   <span class="skill-tag">Sketchup</span>
                   <span class="skill-tag">Canva</span>
                   <span class="skill-tag">Justinmind</span>
+                  <span class="skill-tag">Illustrator</span>
+                  <span class="skill-tag">Photoshop</span>
                 </div>
               </div>
               <div class="skill-category">
@@ -57,6 +59,8 @@
                   <span class="skill-tag">JavaScript</span>
                   <span class="skill-tag">Vue.js</span>
                   <span class="skill-tag">React</span>
+                  <span class="skill-tag">Bootstrap</span>
+                  <span class="skill-tag">Nuxt.js</span>
                 </div>
               </div>
             </div>
@@ -373,12 +377,12 @@ import Tester from "@/components/Tester.vue";
 }
 
 .skill-tag {
-  background: white;
+  background: rgb(165, 250, 246);
   color: black;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 00;
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
 }
