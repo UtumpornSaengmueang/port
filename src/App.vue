@@ -6,7 +6,7 @@
   <nav class="navbar">
     <div class="navbar-brand">
       <h1 class="name">Utumporn Saengmueang</h1>
-      <p class="role">UX/UI Designer</p>
+      <p class="role">Software Engineering</p>
     </div>
     <div class="navbar-menu">
       <router-link to="/" href="#home">Home</router-link>
