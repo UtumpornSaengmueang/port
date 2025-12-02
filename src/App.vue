@@ -90,7 +90,7 @@ export default {
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: white; /* สีขาวโปร่ง */
+  background: white;
   backdrop-filter: blur(20px);
   padding: 1rem 2rem;
   border-radius: 32px;
