@@ -12,7 +12,7 @@
       <router-link to="/" href="#home">Home</router-link>
       <router-link to="/" href="#mywork">Work</router-link>
       <!-- <a href="#mywork">Work</a> -->
-      <a href="#contact" onclick="scrollToContact(event)">Contact</a>
+      <a href="#contact" @click.prevent="scrollToContact">Contact</a>
     </div>
   </nav>
 
@@ -55,11 +55,7 @@
 </template>
 
 <script>
-function scrollToContact(event) {
-  event.preventDefault();
-  const contactSection = document.getElementById("contact");
-  contactSection.scrollIntoView({ behavior: "smooth" });
-}
+
 export default {
   data() {
     return {
@@ -72,6 +68,12 @@ export default {
     },
     handleScroll() {
       this.showBackToTop = window.scrollY > 300;
+    },
+    scrollToContact() {
+      const contactSection = document.getElementById("contact");
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: "smooth" });
+      }
     },
   },
   mounted() {
