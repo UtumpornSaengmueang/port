@@ -138,10 +138,10 @@
       <h2>Partial design</h2>
     </div>
     <div class="picture">
-      <img src="/Product.svg" style="width: 500px; height: 100%" />
-      <img src="/Product2NGH.svg" style="width: 500px; height: 100%" />
-      <img src="/PromotionNGH.svg" style="width: 500px; height: 100%" />
-      <img src="/Basket.svg" style="width: 500px; height: 100%" />
+      <img src="/Product.svg" style="width: 420px; height: 100%" />
+      <img src="/Product2NGH.svg" style="width: 420px; height: 100%" />
+      <img src="/PromotionNGH.svg" style="width: 420px; height: 100%" />
+      <img src="/Basket.svg" style="width: 420px; height: 100%" />
     </div>
   </section>
 
@@ -472,7 +472,7 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
 
 .picture-example {
   background: linear-gradient(135deg, #66ccff 0%, #f9f9f9 100%);
-  padding: 3rem 1rem;
+  padding: 2rem 2rem;
   justify-items: center;
   /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
   transition: transform 0.3s ease;
@@ -484,14 +484,14 @@ document.querySelectorAll(".feature-card, .service-card, .step").forEach((el) =>
   color: #333;
 }
 
-.overview {
+.overview{
   display: flex;
   text-align: center;
 }
 
 .picture {
   display: flex;
-  align-items: center;
+  text-align: center;
   gap: 2rem;
 }
 
