@@ -1,8 +1,8 @@
 <script setup>
 const downloadResume = () => {
   const link = document.createElement('a')
-  link.href = 'UtumpornSaengmueang_Resume.pdf' // ไฟล์ใน public folder (ไม่ต้องใส่ /public/)
-  link.download = 'UtumpornSaengmueang_Resume.pdf' // ชื่อไฟล์ที่จะดาวน์โหลด
+  link.href = 'public/UtumpornSaengmueang_Resume.pdf' // ไฟล์ใน public folder (ไม่ต้องใส่ /public/)
+  link.download = 'public/UtumpornSaengmueang_Resume.pdf' // ชื่อไฟล์ที่จะดาวน์โหลด
   document.body.appendChild(link)
   link.click()
   document.body.removeChild(link)
